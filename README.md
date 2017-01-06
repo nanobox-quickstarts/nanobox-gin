@@ -19,16 +19,14 @@ cd nanobox-gin
 ## Run the app
 
 ```bash
+# Add a convenient way to access your app from the browser
+nanobox dns add local gin.dev
+
 # Run Gin as you would normally, with Nanobox
 nanobox run go run main.go
 ```
 
 ## Check it out
-
-```bash
-# Add a convenient way to access your app from the browser
-nanobox dns add local gin.dev
-```
 
 Visit your app at <a href="http://gin.dev:8080/ping" target="\_blank">gin.dev:8080/ping</a>
 
